@@ -1,0 +1,40 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+}
+.search{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    max-width:50%;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.search{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.sbutton{
+    height: 35px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 100px;
+    font-size: 15px;
+}
+.sbutton:hover{
+    transform: scale(1.05);
+}
+.search label{
+    font-weight: bolder;
+}
+
