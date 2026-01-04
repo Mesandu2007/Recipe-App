@@ -1,0 +1,147 @@
+body{
+     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0d0e18;
+    
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+.search{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    max-width:50%;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-radius: 15px;
+    border: 1px solid #c3c0c0;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    
+}
+.search{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.sbutton{
+    height: 35px;
+    color: white;
+    background-color: rgb(16, 16, 211);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 10%;
+    font-size: 15px;
+}
+.sbutton:hover{
+    transform: scale(1.05);
+}
+.search label{
+    font-weight: bolder;
+}
+.search input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+.fav{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.remove-btn{
+    height: 30px;
+    color: white;
+    background-color: rgb(201, 16, 211);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    
+    font-size: 15px;
+
+}
+.go-favorites-btn{
+    height:38px;
+    color:white;
+    background-color: rgb(208, 16, 211);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-size: 15px;
+    width: auto;
+    white-space: nowrap;
+
+}
+
+
+
+
+/* Medium devices */
+@media (max-width: 768px) {
+    .search input {
+        width: 50%;
+        max-width: 200px;
+    }
+    .sbutton {
+        width: 15%;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .go-favorites-btn {
+        font-size: 12px;
+        padding: 7px 14px;
+    }
+}
+
+/* Small devices */
+@media (max-width: 480px) {
+    .search {
+        flex-direction: column;
+        gap: 8px;
+    }
+    .search input {
+        width: 80%;
+        max-width: none;
+    }
+    .sbutton {
+        width: 60%;
+        font-size: 14px;
+        padding: 8px;
+    }
+    .search label {
+        font-size: 14px;
+    }
+    .go-favorites-btn {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 375px) {
+    h1 {
+        font-size: 24px;
+    }
+    .search input {
+        width: 90%;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .sbutton {
+        width: 70%;
+        font-size: 13px;
+        padding: 6px;
+    }
+    .search label {
+        font-size: 13px;
+    }
+}
+
