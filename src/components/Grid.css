@@ -129,6 +129,12 @@
     color: white;
     text-align: center;
 }
+.foodname{
+    color: blue;
+}
+.remove-btn{
+    padding-bottom: 5px;
+}
 
 
 

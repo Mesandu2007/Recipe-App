@@ -1,7 +1,7 @@
 body{
      margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #0d0e18;
+    background: #080911;
     
 }
 h1{
@@ -62,7 +62,7 @@ h1{
     background-color: rgb(201, 16, 211);
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     
     font-size: 15px;
 
