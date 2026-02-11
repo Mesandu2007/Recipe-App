@@ -234,7 +234,7 @@ export default function Recipe(){
     return(
         <div>
             <div>
-                <h1>Find Your Recipe</h1>
+                <h1 className="head">Find Your Recipe</h1>
                 <div className="c5">
                     <div className="search">
                         <input
@@ -254,7 +254,7 @@ export default function Recipe(){
 
                     </div>
                     <div className="filters">
-                        <select value={Category} onChange={(e)=>handleCategoryChange(e.target.value)}>
+                        <select className="f1" value={Category} onChange={(e)=>handleCategoryChange(e.target.value)}>
                              <option value="All">All Categories</option>
                              <option value="Chicken">Chicken</option>
                              <option value="Beef">Beef</option>
@@ -262,7 +262,7 @@ export default function Recipe(){
                              <option value="Vegetarian">Vegetarian</option>
 
                         </select>
-                        <select value={area} onChange={(e) => handleAreaChange(e.target.value)}>
+                        <select className="f1" value={area} onChange={(e) => handleAreaChange(e.target.value)}>
                             <option value="All">All Areas</option>
                             <option value="Indian">Indian</option>
                             <option value="Italian">Italian</option>

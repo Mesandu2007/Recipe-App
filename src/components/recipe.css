@@ -122,7 +122,7 @@ h1{
 }
 .filters {
   display: flex;
-  gap: 12px;
+  gap: 22px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -167,17 +167,53 @@ h1{
 /* Medium devices */
 @media (max-width: 768px) {
     .search input {
-        width: 50%;
+        width: 90%;
         max-width: 200px;
     }
     .sbutton {
-        width: 30%;
+        width: 80%;
         padding: 8px;
         font-size: 14px;
     }
     .go-favorites-btn {
         font-size: 12px;
         padding: 7px 14px;
+    }
+   
+    .mic-btn {
+        padding: 14px 13px;
+        font-size: 13px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        background: #ff4d4d;
+        color: white;
+    }
+    .filters select {
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        min-width: 70px;
+        
+    }
+    .filters {
+        display: flex;
+        gap: 13px;
+
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .head{
+        font-size:25px;
+    }
+    .search{
+        display:flex;
+        gap:10px;
+        align-items: center;
+        justify-content: center;
+        min-width: 60%;
+
     }
 }
 
@@ -206,6 +242,18 @@ h1{
     .go-favorites-btn {
         font-size: 13px;
         padding: 7px 14px;
+    }
+    .f1{
+        width:20px;
+    }
+    .mic-btn {
+        padding: 10px 14px;
+        font-size: 12px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        background: #ff4d4d;
+        color: white;
     }
 }
 
