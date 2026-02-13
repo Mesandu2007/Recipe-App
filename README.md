@@ -21,8 +21,7 @@ Built with **React**, **CSS**, **LocalStorage**, and the **TheMealDB API**, this
 ## 📸 Screenshots
 
 
-<img width="1893" height="911" alt="image" src="https://github.com/user-attachments/assets/2432f1af-828e-4e29-93cf-45bcc0b7b55c" />
-<img width="1907" height="907" alt="image" src="https://github.com/user-attachments/assets/098b5516-bff4-458f-8266-69cc2d1854d3" />
+<img width="1898" height="912" alt="image" src="https://github.com/user-attachments/assets/0db7ec17-e6e7-4f8c-ac5a-ea52c691514d" />
 
 ---
 
