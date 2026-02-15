@@ -10,7 +10,7 @@ export default function Grid({ recipes,loading,error,favorites,onAddToFavorites 
   if(error){
     return<p className="error-message">No Recipes Found!</p>
   }
-   // optional chaining used
+   
   const isFavorite = (id) => favorites?.some((r) => r.idMeal=== id); 
   
 
